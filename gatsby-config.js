@@ -1,12 +1,12 @@
 const emoji = require("remark-emoji");
 
 module.exports = {
-  pathPrefix: "/pristine-typescript-gatsby-react-material-ui",
+  pathPrefix: "/multi-geth-website",
   siteMetadata: {
-    title: `Pristine`,
-    description: ``,
-    logoUrl: `https://user-images.githubusercontent.com/364566/72745834-80fcac80-3b65-11ea-8521-ec7bacd95687.png`,
-    primaryColor: `#3f51b5`, //material-ui primary color
+    title: `Multi-Geth`,
+    description: `Multi-geth is a geth client with multiple evm chain support`,
+    logoUrl: `https://user-images.githubusercontent.com/10556209/73300896-69fa3200-41d7-11ea-8da1-0d5b62f18e82.png`,
+    primaryColor: `#8B6A49`, //material-ui primary color
     secondaryColor: `#f50057`, //material-ui secondary colo
     author: ``,
     menuLinks: [
@@ -16,22 +16,18 @@ module.exports = {
         ignoreNextPrev: true
       },
       {
-        name: 'page3',
-        link: '/page-3'
-      },
-      {
-        name: 'page4',
-        link: '/page-4'
-      },
-      {
-        name: 'page5',
-        link: '/page-5'
+        name: 'overview',
+        link: '/overview'
       }
     ],
     footerLinks: [
       {
         name: 'Github',
-        link: 'https://github.com/etclabscore/pristine-typescript-gatsby-react-material-ui'
+        link: 'https://github.com/etclabscore/multi-geth'
+      },
+      {
+        name: 'Website_Src',
+        link: 'https://github.com/etclabscore/multi-geth-website'
       }
     ]
   },
@@ -40,8 +36,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `pristine-site`,
-        short_name: `pristine-site`,
+        name: `multi-geth-website`,
+        short_name: `multi-geth-website`,
         start_url: `/`,
         background_color: `transparent`,
         theme_color: `#3f51b5`,

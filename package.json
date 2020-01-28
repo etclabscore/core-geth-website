@@ -1,7 +1,7 @@
 {
-  "name": "@etclabscore/pristine-typescript-gatsby-react-material-ui",
+  "name": "@etclabscore/multi-geth-website",
   "private": true,
-  "description": "A pristine starting point for typescript, gatsby, and material-ui",
+  "description": "Multi-geth is a geth client with multiple evm chain support",
   "version": "0.0.0-development",
   "dependencies": {
     "@etclabscore/gatsby-theme-pristine": "^1.1.4",
@@ -66,9 +66,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/etclabscore/pristine-typescript-gatsby-react-material-ui"
+    "url": "https://github.com/etclabscore/multi-geth-website"
   },
   "bugs": {
-    "url": "https://github.com/etclabscore/pristine-typescript-gatsby-react-material-ui/issues"
+    "url": "https://github.com/etclabscore/multi-geth-website/issues"
   }
 }
