@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/etclabscore/multi-geth-website/compare/1.0.0...1.0.1) (2020-01-28)
+
+
+### Bug Fixes
+
+* updated gatsby config path ([f3ec943](https://github.com/etclabscore/multi-geth-website/commit/f3ec943f412b9a2247cbd3adb25cf65e90e3d937))
+
 # 1.0.0 (2020-01-28)
 
 
