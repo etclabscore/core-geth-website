@@ -1,3 +1,16 @@
+# 1.0.0 (2020-01-28)
+
+
+### Bug Fixes
+
+* updated circleci config ([29d14e6](https://github.com/etclabscore/multi-geth-website/commit/29d14e610e2c15091df578a4da2a598fc13764ef))
+* updated node -v in circleci config ([cc0e7db](https://github.com/etclabscore/multi-geth-website/commit/cc0e7db569f05a125e23bf14cd07d22ba6c5f342))
+
+
+### Features
+
+* initial website src ([00b0f7b](https://github.com/etclabscore/multi-geth-website/commit/00b0f7bd46e2f2a89392ac67aa7fca8e4b4982f5))
+
 ## [1.1.4](https://github.com/etclabscore/pristine-typescript-gatsby-react-material-ui/compare/1.1.3...1.1.4) (2020-01-22)
 
 
