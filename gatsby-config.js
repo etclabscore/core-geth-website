@@ -1,7 +1,7 @@
 const emoji = require("remark-emoji");
 
 module.exports = {
-  pathPrefix: "/multi-geth-website",
+  // pathPrefix: "/multi-geth-website",
   siteMetadata: {
     title: `Multi-Geth`,
     description: `Multi-geth is a geth client with multiple evm chain support`,
