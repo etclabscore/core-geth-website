@@ -1,3 +1,18 @@
+# [1.1.0](https://github.com/etclabscore/multi-geth-website/compare/1.0.2...1.1.0) (2020-01-29)
+
+
+### Bug Fixes
+
+* api documentation build for gatsby ([ac0405e](https://github.com/etclabscore/multi-geth-website/commit/ac0405ee609be9f889470bef161b6337f4de0589))
+* **api docs:** handle react json options and dark mode ([2ff792e](https://github.com/etclabscore/multi-geth-website/commit/2ff792ec6f262a6e01104bfd3577fef8293887d0))
+* **API Docs:** add inspector plugin ([da18c2a](https://github.com/etclabscore/multi-geth-website/commit/da18c2a986d2f278471b8218596ad9a20b44aef0))
+* **README:** initial readme ([1f92f2d](https://github.com/etclabscore/multi-geth-website/commit/1f92f2dd66dc32ed831bc236243a1b2026c1d0cf))
+
+
+### Features
+
+* add initial api documentation ([0fdfbf2](https://github.com/etclabscore/multi-geth-website/commit/0fdfbf2fe4ccdc663afbbefd921d3c71b1170af2))
+
 ## [1.0.2](https://github.com/etclabscore/multi-geth-website/compare/1.0.1...1.0.2) (2020-01-29)
 
 
