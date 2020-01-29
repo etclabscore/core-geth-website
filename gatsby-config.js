@@ -21,6 +21,10 @@ module.exports = {
       {
         name: 'assets',
         link: '/assets'
+      },
+      {
+        name: 'API Documentation',
+        link: '/api-documentation'
       }
     ],
     footerLinks: [
