@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/etclabscore/multi-geth-website/compare/1.0.1...1.0.2) (2020-01-29)
+
+
+### Bug Fixes
+
+* added assets page and minor content management ([f505624](https://github.com/etclabscore/multi-geth-website/commit/f505624662d2c57cf9ce3a097b78b3a4979d0e8f))
+
 ## [1.0.1](https://github.com/etclabscore/multi-geth-website/compare/1.0.0...1.0.1) (2020-01-28)
 
 
