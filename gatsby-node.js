@@ -40,12 +40,29 @@ exports.onCreateWebpackConfig = ({
   plugins,
   actions,
 }) => {
-  actions.setWebpackConfig({
-    plugins: [
-      new MonacoWebpackPlugin({
-        // available options are documented at https://github.com/Microsoft/monaco-editor-webpack-plugin#options
-        languages: ["json"]
-      }),
-    ],
-  })
+  if (stage !== "build-html") {
+    actions.setWebpackConfig({
+      plugins: [
+        new MonacoWebpackPlugin({
+          // available options are documented at https://github.com/Microsoft/monaco-editor-webpack-plugin#options
+          languages: ["json"]
+        }),
+      ],
+    })
+  } else {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /react-json-view/,
+            use: loaders.null(),
+          },
+          {
+            test: /monaco-editor/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    });
+  }
 }
