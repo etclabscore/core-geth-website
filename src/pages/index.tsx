@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Grid, Typography, Box, Button } from "@material-ui/core";
 import { Link as GatsbyLink } from "gatsby";
 import Link from "@material-ui/core/Link";
 import { grey } from "@material-ui/core/colors";
 
 const MyApp: React.FC = () => {
-
   return (
     <>
       <Grid container alignContent="center" alignItems="center" justify="center" direction="column">
