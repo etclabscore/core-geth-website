@@ -3,6 +3,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
+const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin');
 const $RefParser = require("json-schema-ref-parser");
 const fetch = require(`node-fetch`);
 
@@ -29,5 +30,22 @@ exports.sourceNodes = async ({
       type: `OpenrpcDocument`,
       contentDigest: createContentDigest(openrpcDocument),
     },
+  })
+}
+
+exports.onCreateWebpackConfig = ({
+  stage,
+  rules,
+  loaders,
+  plugins,
+  actions,
+}) => {
+  actions.setWebpackConfig({
+    plugins: [
+      new MonacoWebpackPlugin({
+        // available options are documented at https://github.com/Microsoft/monaco-editor-webpack-plugin#options
+        languages: ["json"]
+      }),
+    ],
   })
 }

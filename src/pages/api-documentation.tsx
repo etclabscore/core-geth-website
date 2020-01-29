@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Documentation from "@open-rpc/docs-react";
-import $RefParser from "json-schema-ref-parser";
 import { useStaticQuery, graphql } from "gatsby";
 import useDarkMode from "use-dark-mode";
+import InspectorPlugin from "../docs-react-plugins";
+import * as monaco from "monaco-editor";
+import "./api-documentation.css";
 
 const ApiDocumentation: React.FC = () => {
   const darkmode = useDarkMode();
   useEffect(() => {
+    const t = darkmode.value ? "vs-dark" : "vs";
+    monaco.editor.setTheme(t);
     setReactJsonOptions({
       ...reactJsonOptions,
       theme: darkmode.value ? "summerfruit" : "summerfruit:inverted",
@@ -31,6 +35,7 @@ const ApiDocumentation: React.FC = () => {
 
   return (
     <Documentation
+      methodPlugins={[InspectorPlugin]}
       reactJsonOptions={reactJsonOptions}
       schema={JSON.parse(openrpcQueryData.openrpcDocument.openrpcDocument)}
     />

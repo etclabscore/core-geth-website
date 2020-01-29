@@ -11,6 +11,7 @@
     "@mdx-js/mdx": "^1.5.4",
     "@mdx-js/react": "^1.5.4",
     "@open-rpc/docs-react": "^1.1.5",
+    "@open-rpc/inspector": "^1.2.8",
     "gatsby": "^2.18.25",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-layout": "^1.1.21",
@@ -32,6 +33,7 @@
     "lodash": "^4.17.15",
     "mermaid": "^8.4.5",
     "mermaid.cli": "^0.5.1",
+    "monaco-editor": "^0.18.1",
     "node-fetch": "^2.6.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -46,6 +48,7 @@
     "@types/mdx-js__react": "^1.5.0",
     "@types/react-helmet": "^5.0.15",
     "@types/react-syntax-highlighter": "^11.0.4",
+    "monaco-editor-webpack-plugin": "^1.7.0",
     "prettier": "^1.19.1",
     "typescript": "^3.7.4"
   },
