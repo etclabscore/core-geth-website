@@ -15,6 +15,8 @@ const MyApp: React.FC = () => {
         <Typography gutterBottom style={{ paddingTop: "100px", paddingBottom: "20px" }} variant="inherit">
         Multi-Geth is a swiss-army-knife client allowing users to run Ethereum Classic, Ethereum, and related testnets.
         </Typography>
+        <Typography color="primary" variant="caption">ETC Core, the lead maintainer of Multi-geth is releasing at github.com/etclabscore/multi-geth/ NOT to be confused with github.com/multi-geth/multi-geth</Typography>
+        <br/>
         <Button variant="contained" color="primary" href="https://github.com/etclabscore/multi-geth/releases/latest">
         Releases
         </Button>

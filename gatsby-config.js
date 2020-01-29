@@ -1,7 +1,6 @@
 const emoji = require("remark-emoji");
 
 module.exports = {
-  // pathPrefix: "/multi-geth-website",
   siteMetadata: {
     title: `Multi-Geth`,
     description: `Multi-geth is a geth client with multiple evm chain support`,
@@ -18,15 +17,15 @@ module.exports = {
       {
         name: 'overview',
         link: '/overview'
+      },
+      {
+        name: 'assets',
+        link: '/assets'
       }
     ],
     footerLinks: [
       {
         name: 'Github',
-        link: 'https://github.com/etclabscore/multi-geth'
-      },
-      {
-        name: 'Website_Src',
         link: 'https://github.com/etclabscore/multi-geth-website'
       }
     ]
@@ -42,7 +41,7 @@ module.exports = {
         background_color: `transparent`,
         theme_color: `#3f51b5`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/brand.png`, // This path is relative to the root of the site.
       },
     }
   ],
