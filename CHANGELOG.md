@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/etclabscore/multi-geth-website/compare/1.1.0...1.1.1) (2020-01-30)
+
+
+### Bug Fixes
+
+* add CNAME ([31845a5](https://github.com/etclabscore/multi-geth-website/commit/31845a5dec4058ef0cbf1228e005224266606a6f))
+* cname build issue ([9fe85b8](https://github.com/etclabscore/multi-geth-website/commit/9fe85b8f40c74816a9a3eb3fdfe395d142a42efe))
+
 # [1.1.0](https://github.com/etclabscore/multi-geth-website/compare/1.0.2...1.1.0) (2020-01-29)
 
 
