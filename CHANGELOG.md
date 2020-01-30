@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/etclabscore/multi-geth-website/compare/1.1.1...1.1.2) (2020-01-30)
+
+
+### Bug Fixes
+
+* updated nav and minor text updates ([350179a](https://github.com/etclabscore/multi-geth-website/commit/350179a464678a2601f2ce8c1c5a5c0b7c217fc0))
+
 ## [1.1.1](https://github.com/etclabscore/multi-geth-website/compare/1.1.0...1.1.1) (2020-01-30)
 
 
