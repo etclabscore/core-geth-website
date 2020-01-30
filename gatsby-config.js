@@ -10,27 +10,27 @@ module.exports = {
     author: ``,
     menuLinks: [
       {
-        name: 'home',
+        name: 'Home',
         link: '/',
         ignoreNextPrev: true
       },
       {
-        name: 'overview',
+        name: 'Overview',
         link: '/overview'
-      },
-      {
-        name: 'assets',
-        link: '/assets'
       },
       {
         name: 'API Documentation',
         link: '/api-documentation'
+      },
+      {
+        name: 'Assets',
+        link: '/assets'
       }
     ],
     footerLinks: [
       {
         name: 'Github',
-        link: 'https://github.com/etclabscore/multi-geth-website'
+        link: 'https://github.com/etclabscore/multi-geth'
       }
     ]
   },
