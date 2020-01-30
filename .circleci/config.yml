@@ -69,7 +69,7 @@ jobs:
       - run: sudo apt-get install -y graphviz
       - run: cargo install svgbob_cli
       - run: npm install
-      - run: npm run build -- --prefix-paths
+      - run: npm run build
       - run: npm install semantic-release @semantic-release/changelog @semantic-release/git @semantic-release/github @semantic-release/npm @semantic-release/commit-analyzer @semantic-release/release-notes-generator @qiwi/semantic-release-gh-pages-plugin
       - run: git checkout .
       - run: ./node_modules/.bin/semantic-release
