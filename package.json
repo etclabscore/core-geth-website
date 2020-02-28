@@ -1,5 +1,5 @@
 {
-  "name": "@etclabscore/multi-geth-website",
+  "name": "@etclabscore/core-geth-website",
   "private": true,
   "description": "Multi-geth is a geth client with multiple evm chain support",
   "version": "0.0.0-development",
@@ -69,9 +69,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/etclabscore/multi-geth-website"
+    "url": "https://github.com/etclabscore/core-geth-website"
   },
   "bugs": {
-    "url": "https://github.com/etclabscore/multi-geth-website/issues"
+    "url": "https://github.com/etclabscore/core-geth-website/issues"
   }
 }
