@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/etclabscore/multi-geth-website/compare/1.1.2...1.1.3) (2020-02-28)
+
+
+### Bug Fixes
+
+* changed brand to core-geth ([fb223b9](https://github.com/etclabscore/multi-geth-website/commit/fb223b940365162964dd308a2121d8d4e77e079b))
+
 ## [1.1.2](https://github.com/etclabscore/multi-geth-website/compare/1.1.1...1.1.2) (2020-01-30)
 
 
