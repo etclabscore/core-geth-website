@@ -2,10 +2,10 @@ const emoji = require("remark-emoji");
 
 module.exports = {
   siteMetadata: {
-    title: `Multi-Geth`,
-    description: `Multi-geth is a geth client with multiple evm chain support`,
-    logoUrl: `https://user-images.githubusercontent.com/10556209/73300896-69fa3200-41d7-11ea-8da1-0d5b62f18e82.png`,
-    primaryColor: `#8B6A49`, //material-ui primary color
+    title: `Core-Geth`,
+    description: `Core-geth is a distribution of go-etheruem with many flavors.`,
+    logoUrl: `https://user-images.githubusercontent.com/10556209/75510635-429eac80-59b1-11ea-8d58-ad79452bef0e.png`,
+    primaryColor: `#651fff`, //material-ui primary color
     secondaryColor: `#f50057`, //material-ui secondary colo
     author: ``,
     menuLinks: [
@@ -21,16 +21,12 @@ module.exports = {
       {
         name: 'API Documentation',
         link: '/api-documentation'
-      },
-      {
-        name: 'Assets',
-        link: '/assets'
       }
     ],
     footerLinks: [
       {
         name: 'Github',
-        link: 'https://github.com/etclabscore/multi-geth'
+        link: 'https://github.com/etclabscore/core-geth'
       }
     ]
   },
@@ -39,11 +35,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `multi-geth-website`,
-        short_name: `multi-geth-website`,
+        name: `core-geth-website`,
+        short_name: `core-geth-website`,
         start_url: `/`,
         background_color: `transparent`,
-        theme_color: `#3f51b5`,
+        theme_color: `#651fff`,
         display: `minimal-ui`,
         icon: `src/images/brand.png`, // This path is relative to the root of the site.
       },
