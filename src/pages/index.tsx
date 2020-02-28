@@ -15,7 +15,7 @@ const MyApp: React.FC = () => {
         Core-Geth is a distribution of go-etheruem with many flavors.
         </Typography>
         <br/>
-        <Button variant="contained" color="primary" href="https://github.com/etclabscore/multi-geth/releases/latest">
+        <Button variant="contained" color="primary" href="https://github.com/etclabscore/core-geth/releases/latest">
         Releases
         </Button>
         <br />
