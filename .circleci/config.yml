@@ -2,17 +2,6 @@ version: 2
 
 aliases:
   # -------------------------
-  #      ALIASES: Caches
-  # -------------------------
-  - &restore-deps-cache
-    key: deps-cache-{{ checksum "package.json" }}
-
-  - &save-deps-cache
-    key: deps-cache-{{ checksum "package.json" }}
-    paths:
-      - ~/project/node_modules
-
-  # -------------------------
   #  ALIASES: Branch Filters
   # -------------------------
   - &filter-only-master
