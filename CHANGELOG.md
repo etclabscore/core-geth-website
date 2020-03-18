@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/etclabscore/core-geth-website/compare/1.1.3...1.2.0) (2020-03-18)
+
+
+### Bug Fixes
+
+* updated circleci ([0a3d283](https://github.com/etclabscore/core-geth-website/commit/0a3d2830a4fad870beef6b5f0e3b84daedaee157))
+* updated cname to correct url ([8f8d268](https://github.com/etclabscore/core-geth-website/commit/8f8d26847e8118e8315821f9218443bdb81eb6e9))
+* updated release link to correct url ([f207de9](https://github.com/etclabscore/core-geth-website/commit/f207de9ea7ec9b90d5bd48319da165a33a4d357f))
+
+
+### Features
+
+* added install page ([82402a3](https://github.com/etclabscore/core-geth-website/commit/82402a38e32f0766041468665541e3c31234df55))
+
 ## [1.1.3](https://github.com/etclabscore/multi-geth-website/compare/1.1.2...1.1.3) (2020-02-28)
 
 
