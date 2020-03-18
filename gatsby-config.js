@@ -19,6 +19,10 @@ module.exports = {
         link: '/overview'
       },
       {
+        name: 'Install',
+        link: '/install'
+      },
+      {
         name: 'API Documentation',
         link: '/api-documentation'
       }
@@ -27,6 +31,10 @@ module.exports = {
       {
         name: 'Github',
         link: 'https://github.com/etclabscore/core-geth'
+      },
+      {
+        name: 'Chat on Gitter',
+        link: 'https://gitter.im/core-geth/community'
       }
     ]
   },

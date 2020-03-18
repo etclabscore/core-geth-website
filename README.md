@@ -1,11 +1,11 @@
 <h1 align="center" style="margin-top: 1em; margin-bottom: 3em;">
-  <p><a href="https://multi-geth.org"><img alt="multi-geth logo" src="https://user-images.githubusercontent.com/10556209/73300896-69fa3200-41d7-11ea-8da1-0d5b62f18e82.png" alt="multi-geth.org" width="125"></a></p>
-  <p>multi-geth.org</p>
+  <p><a href="https://core-geth.org"><img alt="core-geth logo" src="https://user-images.githubusercontent.com/10556209/75510635-429eac80-59b1-11ea-8d58-ad79452bef0e.png" alt="core-geth.org" width="125"></a></p>
+  <p>core-geth.org</p>
 </h1>
 
-[multi-geth.org](https://multi-geth.org) is a primary online knowledge base for Multi-Geth. It will always be a work in progress and improve through contributions from the community.
+[core-geth.org](https://core-geth.org) is a primary online knowledge base for Multi-Geth. It will always be a work in progress and improve through contributions from the community.
 
-If you’re interested in helping to improve [multi-geth.org](https://multi-geth.org), start here. This contribution guide will help you get started.
+If you’re interested in helping to improve [core-geth.org](https://core-geth.org), start here. This contribution guide will help you get started.
 
 ## Goals
 
