@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/etclabscore/core-geth-website/compare/1.2.0...1.3.0) (2020-03-31)
+
+
+### Features
+
+* update node -v in circle ci, updated nav, update pristine theme, added how-to page ([382d1a3](https://github.com/etclabscore/core-geth-website/commit/382d1a370aaa87a891e4c210558ec112ea6d9ae3))
+
 # [1.2.0](https://github.com/etclabscore/core-geth-website/compare/1.1.3...1.2.0) (2020-03-18)
 
 
