@@ -75,6 +75,10 @@ Do not forget `--rpcaddr 0.0.0.0`, if you want to access RPC from other containe
 and/or hosts. By default, `geth` binds to the local interface and RPC endpoints is not
 accessible from the outside.
 
+## Jade Desktop
+
+Jade Desktop is a desktop application allowing
+
 ## Build from Source
 
 - Make sure your system has __Go__ installed. Version 1.13+ is recommended. https://golang.org/doc/install

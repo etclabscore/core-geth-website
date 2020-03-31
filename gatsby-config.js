@@ -1,4 +1,4 @@
-const emoji = require("remark-emoji");
+const emoji = require("remark-emoji")
 
 module.exports = {
   siteMetadata: {
@@ -10,33 +10,37 @@ module.exports = {
     author: ``,
     menuLinks: [
       {
-        name: 'Home',
-        link: '/',
-        ignoreNextPrev: true
+        name: "Home",
+        link: "/",
+        ignoreNextPrev: true,
       },
       {
-        name: 'Overview',
-        link: '/overview'
+        name: "Overview",
+        link: "/overview",
       },
       {
-        name: 'Install',
-        link: '/install'
+        name: "Install",
+        link: "/install",
       },
       {
-        name: 'API Documentation',
-        link: '/api-documentation'
-      }
+        name: "How to",
+        link: "/how-to",
+      },
+      {
+        name: "API Documentation",
+        link: "/api-documentation",
+      },
     ],
     footerLinks: [
       {
-        name: 'Github',
-        link: 'https://github.com/etclabscore/core-geth'
+        name: "Github",
+        link: "https://github.com/etclabscore/core-geth",
       },
       {
-        name: 'Chat on Gitter',
-        link: 'https://gitter.im/core-geth/community'
-      }
-    ]
+        name: "Chat on Gitter",
+        link: "https://gitter.im/core-geth/community",
+      },
+    ],
   },
   plugins: [
     "@etclabscore/gatsby-theme-pristine",
@@ -51,6 +55,6 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/brand.png`, // This path is relative to the root of the site.
       },
-    }
+    },
   ],
 }
