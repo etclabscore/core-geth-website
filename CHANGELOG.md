@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/etclabscore/core-geth-website/compare/1.3.0...1.3.1) (2020-03-31)
+
+
+### Bug Fixes
+
+* fixed broken link on how-to page ([df8e27e](https://github.com/etclabscore/core-geth-website/commit/df8e27ea6a1feb83b2d8989a302b125ea0973aeb))
+
 # [1.3.0](https://github.com/etclabscore/core-geth-website/compare/1.2.0...1.3.0) (2020-03-31)
 
 
