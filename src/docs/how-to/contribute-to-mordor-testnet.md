@@ -34,19 +34,33 @@ geth --mordor account new
 geth --mordor account list
 ```
 
-You’ll notice listing the account will print the keystore file location.For example: `keystore:///home/USER/.ethereum/mordor/keystore/UTC...`
+You’ll notice listing the account will print the keystore file location. For example: `keystore:///home/USER/.ethereum/mordor/keystore/UTC...`
 
 ## Run Mordor with Mining Enable
+
+Now, we can run `geth`, but that would not be meaninful. We need to tell geth to run Mordor, mine testnet-ETC, and of course we'll add some optional connectivity commands/ flags.
 
 Run mordor testnet with mining and rpc enabled. We want to enable mining to mine testnet ETC and enable RPC to access our node.
 
 ```shell
-geth --mordor --rpc --rpcaddr "localhost" --rpcport 8545 --mine --minerthreads 1
+geth --mordor --miner.extradata "stev" --mine --minerthreads=1 --etherbase 0x11039699406158d152b5ca1b69d31dd20aae9379 --rpc --rpcport "8545" --port "30303" --rpccorsdomain "*" --nat "any" --rpcapi eth,web3,personal,net
 ```
+
+This command will initialize `geth` to run a `--mordor` node. We'll provide a short string identifying our miner (or pool) on the network  `--miner.extradata "NAME"`, enable `--mine` and configure the nuumber of CPU threads we want mining `--minerthreads=1`. Now, we'll specify the mining address `--etherbase 0x11039699406158d152b5ca1b69d31dd20aae9379`. Geth will send mining rewards to the default account (Account #0) if `--etherbase` is not defined. Finally, we can add to optional connectivity `--rpc --rpcport "8545" --port "30303" --rpccorsdomain "*" --nat "any" --rpcapi eth,web3,personal,net`. By enabling RPC we can communicate with our node with other tools and services.
 
 ## Check Mordor Balance on Expedition.dev
 
 So, you’re running a Mordor node and mining testnet ETC. Woohoo! An easy way to double check you’re actually growing a Mordor testnet balance is on Expedition.dev https://expedition.dev/?network=mordor. Just search the account address you created earlier.
+
+### Connect your node to Expedition.dev
+
+If you enabled RPC connectivity to your node. You can have Expedition connect directly with your node. This has plenty of benefits for a development enviorment. However, you can use it to determine immeditate node information such as; current block height, chainID, mining stats, etc...
+
+Simply pass your node's RPC endpoint `?rpcUrl=http://localhost:8545` in the url like so:
+
+```shell
+https://expedition.dev/?rpcUrl=http://localhost:8545
+```
 
 ## Add your Mordor Account to a Wallet?
 
@@ -65,7 +79,7 @@ geth --mordor --rpc --rpcaddr "localhost" --rpcport 8545 --mine --minerthreads 1
 is creating a shell script file. `touch start-mordor.sh` to create the file `&& echo “the contents”` into the shell script file `&& chmod +x filename.sh` to add executible permissions.
 
 ```shell
-touch start-mordor.sh && echo "geth --mordor --rpc --rpcaddr "localhost" --rpcport 8545 --mine --minerthreads 1" >start-mordor.sh && chmod +x start-mordor.sh
+touch start-mordor.sh && echo "geth --mordor --miner.extradata "stev" --mine --minerthreads=1 --etherbase 0x11039699406158d152b5ca1b69d31dd20aae9379 --rpc --rpcport "8545" --port "30303" --rpccorsdomain "*" --nat "any" --rpcapi eth,web3,personal,net" >start-mordor.sh && chmod +x start-mordor.sh
 ```
 
 Run it 
@@ -73,6 +87,10 @@ Run it
 ```shell
 ./start-mordor.sh
 ```
+
+Stop it
+
+`Ctrl + C`
 
 ## More Mordor Resources
 
