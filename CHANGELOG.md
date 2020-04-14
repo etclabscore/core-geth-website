@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/etclabscore/core-geth-website/compare/1.3.1...1.3.2) (2020-04-14)
+
+
+### Bug Fixes
+
+* updated mordor tutorial ([40368b6](https://github.com/etclabscore/core-geth-website/commit/40368b6e3b4acedb4bfb9ed58562ff3a9090a3fe))
+
 ## [1.3.1](https://github.com/etclabscore/core-geth-website/compare/1.3.0...1.3.1) (2020-03-31)
 
 
