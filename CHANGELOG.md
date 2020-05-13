@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/etclabscore/core-geth-website/compare/1.3.2...1.3.3) (2020-05-13)
+
+
+### Bug Fixes
+
+* minor content updates ([bf10f75](https://github.com/etclabscore/core-geth-website/commit/bf10f7536a9895fa1e7b78c2a44fa7e77715e9ce))
+
 ## [1.3.2](https://github.com/etclabscore/core-geth-website/compare/1.3.1...1.3.2) (2020-04-14)
 
 
