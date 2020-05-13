@@ -11,14 +11,13 @@ There's a variety of options to install Core-geth. Choose your destiny!
 If you just want to download and run geth or any of the other tools here, this is the quickest and simplest way. Binary archives are published at https://github.com/etclabscore/core-geth/releases.
 
 - Find & download latest [release](https://github.com/etclabscore/core-geth/releases) for your operating system
-- Download it, (check the SHA sum).
 - Unarchive it, and run!
 
-Linux
-
 ```shell
-wget https://github.com/etclabscore/core-geth/releases/download/v1.11.1/core-geth-linux.zip # download binary release
-sudo unzip core-geth-linux.zip -d /bin/ # unzip and select destination
+wget https://github.com/etclabscore/core-geth/releases/download/v1.11.3/core-geth-linux-v1.11.3.zip # download binary release for linux
+
+sudo unzip core-geth-linux.zip -d /bin/ # unzip into /bin/ directory
+
 geth --help # check install, view usage & commands
 ```
 

@@ -43,7 +43,7 @@ Now, we can run `geth`, but that would not be meaninful. We need to tell geth to
 Run mordor testnet with mining and rpc enabled. We want to enable mining to mine testnet ETC and enable RPC to access our node.
 
 ```shell
-geth --mordor --miner.extradata "stev" --mine --minerthreads=1 --etherbase 0x11039699406158d152b5ca1b69d31dd20aae9379 --rpc --rpcport "8545" --port "30303" --rpccorsdomain "*" --nat "any" --rpcapi eth,web3,personal,net
+geth --mordor --miner.extradata "MINERNAME" --mine --minerthreads=1 --etherbase 0x11039699406158d152b5ca1b69d31dd20aae9379 --rpc --rpcport "8545" --port "30303" --rpccorsdomain "*" --nat "any" --rpcapi eth,web3,personal,net
 ```
 
 This command will initialize `geth` to run a `--mordor` node. We'll provide a short string identifying our miner (or pool) on the network  `--miner.extradata "NAME"`, enable `--mine` and configure the nuumber of CPU threads we want mining `--minerthreads=1`. Now, we'll specify the mining address `--etherbase 0x11039699406158d152b5ca1b69d31dd20aae9379`. Geth will send mining rewards to the default account (Account #0) if `--etherbase` is not defined. Finally, we can add to optional connectivity `--rpc --rpcport "8545" --port "30303" --rpccorsdomain "*" --nat "any" --rpcapi eth,web3,personal,net`. By enabling RPC we can communicate with our node with other tools and services.
@@ -79,7 +79,7 @@ geth --mordor --rpc --rpcaddr "localhost" --rpcport 8545 --mine --minerthreads 1
 is creating a shell script file. `touch start-mordor.sh` to create the file `&& echo “the contents”` into the shell script file `&& chmod +x filename.sh` to add executible permissions.
 
 ```shell
-touch start-mordor.sh && echo "geth --mordor --miner.extradata "stev" --mine --minerthreads=1 --etherbase 0x11039699406158d152b5ca1b69d31dd20aae9379 --rpc --rpcport "8545" --port "30303" --rpccorsdomain "*" --nat "any" --rpcapi eth,web3,personal,net" >start-mordor.sh && chmod +x start-mordor.sh
+touch start-mordor.sh && echo "geth --mordor --miner.extradata "MINERNAME" --mine --minerthreads=1 --etherbase 0x11039699406158d152b5ca1b69d31dd20aae9379 --rpc --rpcport "8545" --port "30303" --rpccorsdomain "*" --nat "any" --rpcapi eth,web3,personal,net" >start-mordor.sh && chmod +x start-mordor.sh
 ```
 
 Run it 

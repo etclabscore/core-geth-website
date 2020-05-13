@@ -1,7 +1,7 @@
 {
   "name": "@etclabscore/core-geth-website",
   "private": true,
-  "description": "Multi-geth is a geth client with multiple evm chain support",
+  "description": "Core-Geth is a distribution of go-etheruem with many flavors.",
   "version": "0.0.0-development",
   "dependencies": {
     "@etclabscore/gatsby-theme-pristine": "^1.1.5",
@@ -10,7 +10,7 @@
     "@material-ui/styles": "^4.8.2",
     "@mdx-js/mdx": "^1.5.4",
     "@mdx-js/react": "^1.5.4",
-    "@open-rpc/docs-react": "^1.1.5",
+    "@open-rpc/docs-react": "^1.2.1",
     "@open-rpc/inspector": "^1.2.8",
     "gatsby": "^2.18.25",
     "gatsby-image": "^2.2.34",
