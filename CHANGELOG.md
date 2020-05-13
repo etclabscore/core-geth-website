@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/etclabscore/core-geth-website/compare/1.3.3...1.3.4) (2020-05-13)
+
+
+### Bug Fixes
+
+* bumped circleci node -v ([735b86d](https://github.com/etclabscore/core-geth-website/commit/735b86d1f284392fbbed30f26dc4f6afe74054e6))
+
 ## [1.3.3](https://github.com/etclabscore/core-geth-website/compare/1.3.2...1.3.3) (2020-05-13)
 
 
