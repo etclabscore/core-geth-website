@@ -13,31 +13,23 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
 
-  build:
-
+  test:
+    name: CI Pipeline
     runs-on: ubuntu-latest
-
     steps:
-
-      - name: "Checkout"
+      - name: Checkout master
         uses: actions/checkout@master
 
       - name: "Setup Node.js"
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-
-      - name: "Deploy to gh-pages"
-        run: npm deploy
-        env:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
-
-
-      
-          
-    
-    
-
+      - name: Test the website
+        run: |
+          npm install
+          npm install codecov
+          npm test
+          ./node_modules/.bin/codecovr
 
 # name: Gatsby Publish
 
