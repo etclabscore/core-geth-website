@@ -29,7 +29,7 @@ jobs:
           npm install
           npm install codecov
           npm test
-          ./node_modules/.bin/codecovr
+          ./node_modules/.bin/codecov
 
 # name: Gatsby Publish
 
