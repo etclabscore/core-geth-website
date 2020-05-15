@@ -14,7 +14,7 @@ on:
 jobs:
 
   test:
-    name: test website
+    name: Start test job
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
@@ -32,7 +32,8 @@ jobs:
           ./node_modules/.bin/codecov
   
   build:
-    name: build website
+    needs: test
+    name: Start build job
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
@@ -46,6 +47,7 @@ jobs:
         run: |
           npm install
           npm run build
+      
     
 # name: Gatsby Publish
 
