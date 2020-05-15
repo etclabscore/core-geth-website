@@ -14,7 +14,7 @@ on:
 jobs:
 
   test:
-    name: CI Pipeline
+    name: test website
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
@@ -30,7 +30,23 @@ jobs:
           npm install codecov
           npm test
           ./node_modules/.bin/codecov
+  
+  build:
+    name: build website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@master
 
+      - name: "Setup Node.js"
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Build the website
+        run: |
+          npm install
+          npm run build
+    
 # name: Gatsby Publish
 
 # on:
