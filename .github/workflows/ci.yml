@@ -62,7 +62,9 @@ jobs:
           node-version: 12.x
 
       - name: Deploy to github pages
-        run: npm run deploy
+        run: |
+          npm run install
+          npm run deploy
         env:
           access-token: ${{ secrets.ACCESS_TOKEN }}
             
