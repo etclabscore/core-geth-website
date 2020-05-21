@@ -1,3 +1,11 @@
+## [1.3.5](https://github.com/etclabscore/core-geth-website/compare/1.3.4...1.3.5) (2020-05-21)
+
+
+### Bug Fixes
+
+* update circleci yml ([715b5fc](https://github.com/etclabscore/core-geth-website/commit/715b5fc20f46e1183ae31f6dee2663a5d0e3543a))
+* update circleci yml ([f6441f5](https://github.com/etclabscore/core-geth-website/commit/f6441f52abb79ed21ee3ddb7f39d98ca0adc218c))
+
 ## [1.3.4](https://github.com/etclabscore/core-geth-website/compare/1.3.3...1.3.4) (2020-05-13)
 
 
