@@ -35,6 +35,17 @@ const MyApp: React.FC = () => {
               </Link>
             </Typography>
           </ListItem>
+          <ListItem>
+            {" "}
+            <Typography>
+              <Link
+                to="setup-on-digital-ocean"
+                style={{ color: "#651fff" }}
+              >
+                How to setup an Ethereum node on Digital Ocean
+              </Link>
+            </Typography>
+          </ListItem>
         </List>
       </Grid>
       <br />
