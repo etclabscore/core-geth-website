@@ -34,30 +34,38 @@ If you're having trouble determining the Raspberry Pi's IP address to SSH into i
 After completing Step 03 
 
 1. Update & upgrade Ubuntu system & other software.
-    ```
+   
+    ```shell
     sudo apt update
     ```
-    ```
+
+    ```shell
     sudo apt upgrade
     ```
     Install _unzip_
-    ```
+
+    ```shell
     sudo apt install unzip
     ```
     Setup _go-lang_
-    ```
+
+    ```shell
     sudo snap install go --classic
     ```
     Install _make_
-    ```
+
+    ```shell
     sudo apt install make
     ```
     Install _htop_
-    ```
+
+    ```shell
     sudo apt install htop
     ```
+
     Install build-essentials
-    ```
+
+    ```shell
     sudo apt-get install build-essential
     ```
 
@@ -65,7 +73,7 @@ After completing Step 03
 
     View IP address
 
-    ```
+    ```shell
     ip addr show
     ```
 
@@ -83,25 +91,28 @@ After completing Step 03
     ```
 
     Using _your_ IP address and the example yaml file above. Edit __/etc/netplan/50-cloud-init.yaml__ in _vim_
-    ```
+
+    ```shell
     sudo vim /etc/netplan/50-cloud-init.yaml
     ```
 
     Vim tip: `i` to enter insert mode to begin editing the text. `Esc` to exit insert mode. `:wq` to save the changes.
 
     Apply the new netplan
-    ```
+
+    ```shell
     sudo netplan apply
     ```
 
     Check the changes were applied
-    ```
+
+    ```shell
     ip addr show && ip route show
     ```
 
     Reboot
 
-    ```
+    ```shell
     sudo reboot
     ```
 
@@ -111,43 +122,48 @@ Storing the state of the blockchain requires more sufficient memory resources. E
 
 1. Identify the disk. It will be /dev/<name>. In many cases it's /dev/sda or /dev/sda1, /dev/sda2, etc...
 
-    ```
+    ```shell
     sudo fdisk -l
     ```
     
     Create a partition for the disk.
 
-    ```
+    ```shell
     sudo mkfs.ext4 /dev/sda
     ```
 2. Mount the disk
+   
     ```shell
     sudo mkdir /mnt/ssd
     sudo chown -R ubuntu:ubuntu /mnt/ssd/ # "ubuntu" is the default hostname
     sudo mount /dev/sda /mnt/ssd # mount the disk "dev/sda" to "/mnt/ssd"
     ```
 
-    Automatically mount the disk on startup
-    ```
 3. Automatically mount disk on startup
 
     Get the unique ID of the disk (`UUID="<the-unique-id>"`)
-    ```
+
+    ```shell
     sudo blkid
     ```
+
     Edit the `/etc/fstab` file, inserting the below example at the end of the file.
 
-    ```
+    ```shell
     sudo vim /etc/fstab
     ```
+
     Insert __UUID=b2907e9d-1a37-4f26-8d43-b51ff3e1c66f /mnt/ssd ext4 defaults 0 0__ at the end of the file with _your_ disks UUID.
 
     Reboot
-    ```
+
+    ```shell
     sudo reboot
     ```
+
     Check the disk was mounted
-    ```
+
+    ```shell
     df -ha /dev/sda
     ```
 
@@ -162,25 +178,35 @@ Storing the state of the blockchain requires more sufficient memory resources. E
    1. Build from source
    
    Clone the repo & change directory into the source
-   ```
+
+   ```shell
    git clone https://github.com/etclabscore/core-geth.git && cd core-geth/
    ```
+
    Make_ geth
-   ```
+
+   ```shell
    make geth (this may take a minute)
    ```
+
    Move the built `geth` binary to the `/bin/` directory
-   ```
+
+   ```shell
    sudo mv ~/core-geth/build/bin/geth /bin/
    ```
+
    2. Check installation
-   ```
+   
+   ```shell
    geth version
    ```
+
    View usage and commands
-   ```
+
+   ```shell
    geth --help
    ```
+
    Congrats Core-geth is installed!
 
 ## Step 06 - Run Core-geth
@@ -196,23 +222,31 @@ Storing the state of the blockchain requires more sufficient memory resources. E
    1. Create a data directory on the external disk. It's best practice to name the directory based on the specific network to be run.
    
    Make the data directory
-   ```
+
+   ```shell
    sudo mkdir /mnt/ssd/ethereum/ # ethereum example
 
    sudo mkdir /mnt/ssd/classic/ # ethereum classic example
    ```
+
    Run `geth <commands> <datadirectory>`
-   ```
+
+   ```shell
    geth --syncmode fast --cache 256 --datadir /mnt/ssd/ethereum # ethereum
 
    geth --classic --syncmode fast --cache 256 --datadir /mnt/ssd/classic # ethereum classic
    ```
+
    By default, Geth runs in the foreground of the terminal/ command prompt. To run geth in the background simply use `nohup` in the beginning and `&` at the end of the command. Example:
-   ```
+   
+   ```shell
    nohup geth --classic --syncmode fast --cache 256 --datadir /mnt/ssd/classic # ethereum classic &
    ```
+
    2. Check geth process is running and current resource consumption using `htop`
-    ```
+   
+    ```shell
     htop
     ```
+    
     `Ctrl` + `Z` to exit htop.
