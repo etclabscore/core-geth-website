@@ -60,7 +60,7 @@ sudo unzip core-geth-linux-v1.11.4.zip -d /bin/
 geth version
 ```
 
-## Setup 06 - Run a network
+## Step 06 - Run a network
 
 Core-geth is a distribution of the Ethereum Foundation's official Go-Ethereum (Geth) client with more features, such as, running both _EthClassic_ & _Ethereum_ related networks. To view all available usage and commands run `geth --help`.
 
