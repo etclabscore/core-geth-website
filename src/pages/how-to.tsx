@@ -28,7 +28,7 @@ const MyApp: React.FC = () => {
             {" "}
             <Typography>
               <Link
-                to="../contribute-to-mordor-testnet"
+                to="/contribute-to-mordor-testnet"
                 style={{ color: "#651fff" }}
               >
                 How to contribute to Mordor testnet
@@ -39,7 +39,7 @@ const MyApp: React.FC = () => {
             {" "}
             <Typography>
               <Link
-                to="../setup-on-digital-ocean"
+                to="/setup-on-digital-ocean"
                 style={{ color: "#651fff" }}
               >
                 How to setup an Ethereum node on Digital Ocean
@@ -50,10 +50,10 @@ const MyApp: React.FC = () => {
             {" "}
             <Typography>
               <Link
-                to="../setup-on-raspberry-pi"
+                to="/setup-on-raspberry-pi"
                 style={{ color: "#651fff" }}
               >
-                How to setup an Ethereum node on Raspberry Pi 4
+                How to setup an Ethereum node on Raspberry Pi
               </Link>
             </Typography>
           </ListItem>
