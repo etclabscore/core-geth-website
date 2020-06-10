@@ -1,3 +1,18 @@
+# [1.4.0](https://github.com/etclabscore/core-geth-website/compare/1.3.6...1.4.0) (2020-06-10)
+
+
+### Bug Fixes
+
+* big fixup ([d1349e5](https://github.com/etclabscore/core-geth-website/commit/d1349e5f17f6feaa0ba9c83530e2298e090433b9))
+* comment out pi tutorial snippets to see if build passes ([829e7a5](https://github.com/etclabscore/core-geth-website/commit/829e7a5da4244f17d44b266c080a550c49d5c5da))
+* Reduced site deps back to release v1.3.0 because updated deps ([9eff82e](https://github.com/etclabscore/core-geth-website/commit/9eff82ea008d0ada0de9fd464225e9afc3fefe57))
+* update npm packages ([5004d3b](https://github.com/etclabscore/core-geth-website/commit/5004d3b316bd67a1fcd85fbbaee2d109f2576e42))
+
+
+### Features
+
+* added raspberry pi howto tutorial ([11fb381](https://github.com/etclabscore/core-geth-website/commit/11fb3815ec4e66494741f5c35efba629e02c85dc))
+
 # [1.3.0](https://github.com/etclabscore/core-geth-website/compare/1.2.0...1.3.0) (2020-03-31)
 
 
