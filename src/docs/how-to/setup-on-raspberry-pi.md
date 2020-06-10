@@ -40,11 +40,11 @@ After completing Step 02, you should be able to remotely access the Raspberry Pi
 
 ### 1. Update & upgrade Ubuntu system & other software.
 
+![updatesystem deps](https://user-images.githubusercontent.com/10556209/84285511-2c050700-ab03-11ea-979c-51d1b0043943.gif)
+
 Update the operating system
 ```
-sudo apt update
-
-sudo apt upgrade
+sudo apt-get update && sudo apt-get upgrade
 ```
 
 Install _unzip_
@@ -73,6 +73,8 @@ sudo apt-get install build-essential
 ```
 
 ### 2. Assign a static IP address.
+
+![edit-netplan](https://user-images.githubusercontent.com/10556209/84286654-99fdfe00-ab04-11ea-92c7-1e4ba9ca077e.gif)
 
 View IP address
 ```
@@ -181,6 +183,8 @@ df -ha /dev/sda
 ## Step 05 - Install Core-geth
 
 ### 1. Build from source
+
+![installgeth](https://user-images.githubusercontent.com/10556209/84288443-d16daa00-ab06-11ea-9da7-42ee808ff9d7.gif)
    
 Clone the repo & change directory into the source
 
@@ -260,7 +264,9 @@ htop
 
 # Some tips
 
-Checking the sync status through the geth console.
+#### View syncing status using Geth Console
+
+![view-sync-status](https://user-images.githubusercontent.com/10556209/84289898-a97f4600-ab08-11ea-97f9-7216206958a3.gif)
 
 ```
 sudo geth attach ipc:/mnt/ssd/classic/geth.ipc
