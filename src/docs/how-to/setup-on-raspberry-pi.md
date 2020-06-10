@@ -4,7 +4,7 @@ title: How to setup an Ethereum node on Raspberry Pi
 
 # How to setup an Ethereum node on Raspberry Pi
 
-<img src="https://pbs.twimg.com/media/EZYYWOMXgAILg10?format=jpg&name=large" width="480px"/>
+![](https://duckduckgo.com/i/0c1be8ce.png)
 
 ## Introduction
 
@@ -271,4 +271,3 @@ sudo geth attach ipc:/mnt/ssd/classic/geth.ipc
 
 # type "exit" to exit the geth console
 ```
-![view-sync-status](https://user-images.githubusercontent.com/10556209/84109781-0a176180-a9e9-11ea-9d8c-aff7c73baa7e.gif)

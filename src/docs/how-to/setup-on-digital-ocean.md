@@ -4,6 +4,8 @@ title: How to setup an Ethereum node on Digital Ocean
 
 # How to setup an Ethereum node on Digital Ocean
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/150px-DigitalOcean_logo.svg.png)
+
 ## Introduction
 
 Digital Ocean (DO) is a cloud computing service and an alternative to AWS, GCP, or Azure. Cloud computing uses remote resources, saving organizations the cost of servers and other equipment. Where applicable, additional documentation will be referenced throughout this tutorial. If you have trouble on a step, then feel free to review the provided [resources](##resources).

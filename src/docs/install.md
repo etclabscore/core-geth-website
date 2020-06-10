@@ -11,17 +11,20 @@ There's a variety of options to install Core-geth. Choose your destiny!
 If you just want to download and run geth or any of the other tools here, this is the quickest and simplest way. Binary archives are published at https://github.com/etclabscore/core-geth/releases.
 
 - Find & download latest [release](https://github.com/etclabscore/core-geth/releases) for your operating system
+- Download it, (check the SHA sum).
 - Unarchive it, and run!
 
+Linux
+
 ```shell
-wget https://github.com/etclabscore/core-geth/releases/download/v1.11.3/core-geth-linux-v1.11.3.zip # download binary release for linux
+wget https://github.com/etclabscore/core-geth/releases/download/v1.11.5/core-geth-linux-v1.11.5.zip # Download release for linux
 
-sudo unzip core-geth-linux.zip -d /bin/ # unzip into /bin/ directory
+sudo unzip core-geth-linux-v1.11.5.zip -d /bin/ # Unzip and move contents to /bin/ directory
 
-geth --help # check install, view usage & commands
+geth version # Check install
 ```
 
-## Docker
+## Docker 🐋
 
 Docker is one of the easiest ways to install Core-geth on your machine. Docker images are automatically [published on Docker Hub](https://hub.docker.com/r/etclabscore/core-geth/tags). All runnable examples below are for images limited to `geth`. For images including the full suite of tools available from this source, use the Docker Hub tag prefix `alltools.`, like `etclabscore/core-geth:alltools.latest`, or the associated Docker file directly `./Dockerfile.alltools`.
 
@@ -74,13 +77,10 @@ Do not forget `--rpcaddr 0.0.0.0`, if you want to access RPC from other containe
 and/or hosts. By default, `geth` binds to the local interface and RPC endpoints is not
 accessible from the outside.
 
-## Jade Desktop
-
-Jade Desktop is a desktop application allowing
-
 ## Build from Source
 
 - Make sure your system has __Go__ installed. Version 1.13+ is recommended. https://golang.org/doc/install
+  - You can setup Go easily with Snap `sudo snap install go --classic`
 - Make sure your system has a C compiler installed. For example, with Linux Ubuntu:
 
 ```shell

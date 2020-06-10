@@ -1,31 +1,3 @@
-## [1.3.4](https://github.com/etclabscore/core-geth-website/compare/1.3.3...1.3.4) (2020-05-13)
-
-
-### Bug Fixes
-
-* bumped circleci node -v ([735b86d](https://github.com/etclabscore/core-geth-website/commit/735b86d1f284392fbbed30f26dc4f6afe74054e6))
-
-## [1.3.3](https://github.com/etclabscore/core-geth-website/compare/1.3.2...1.3.3) (2020-05-13)
-
-
-### Bug Fixes
-
-* minor content updates ([bf10f75](https://github.com/etclabscore/core-geth-website/commit/bf10f7536a9895fa1e7b78c2a44fa7e77715e9ce))
-
-## [1.3.2](https://github.com/etclabscore/core-geth-website/compare/1.3.1...1.3.2) (2020-04-14)
-
-
-### Bug Fixes
-
-* updated mordor tutorial ([40368b6](https://github.com/etclabscore/core-geth-website/commit/40368b6e3b4acedb4bfb9ed58562ff3a9090a3fe))
-
-## [1.3.1](https://github.com/etclabscore/core-geth-website/compare/1.3.0...1.3.1) (2020-03-31)
-
-
-### Bug Fixes
-
-* fixed broken link on how-to page ([df8e27e](https://github.com/etclabscore/core-geth-website/commit/df8e27ea6a1feb83b2d8989a302b125ea0973aeb))
-
 # [1.3.0](https://github.com/etclabscore/core-geth-website/compare/1.2.0...1.3.0) (2020-03-31)
 
 
