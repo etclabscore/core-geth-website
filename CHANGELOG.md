@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/etclabscore/core-geth-website/compare/1.4.0...1.4.1) (2020-06-10)
+
+
+### Bug Fixes
+
+* added Gifs to Raspberry Pi tutorial ([839b6ee](https://github.com/etclabscore/core-geth-website/commit/839b6eed575a1fed0ce82b0e76cfbad470d5d743))
+
 # [1.4.0](https://github.com/etclabscore/core-geth-website/compare/1.3.6...1.4.0) (2020-06-10)
 
 
