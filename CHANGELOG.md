@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/etclabscore/core-geth-website/compare/1.4.1...1.4.2) (2020-06-16)
+
+
+### Bug Fixes
+
+* update ras pi tutorial w/ youtube vid and minor typo fixes ([27b8515](https://github.com/etclabscore/core-geth-website/commit/27b85151dbe7ce006144814f7fba8032b143fc08))
+
 ## [1.4.1](https://github.com/etclabscore/core-geth-website/compare/1.4.0...1.4.1) (2020-06-10)
 
 
