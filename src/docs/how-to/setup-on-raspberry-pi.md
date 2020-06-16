@@ -4,7 +4,7 @@ title: How to setup an Ethereum node on Raspberry Pi
 
 # How to setup an Ethereum node on Raspberry Pi
 
-![](https://duckduckgo.com/i/0c1be8ce.png)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/z43gj3xlQJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Introduction
 
@@ -192,10 +192,10 @@ Clone the repo & change directory into the source
 git clone https://github.com/etclabscore/core-geth.git && cd core-geth/
 ```
 
-Make_ geth
+Make geth
 
 ```
-make geth (this may take a minute)
+make geth # this may take a few minutes
 ```
 
 Move the built `geth` binary to the `/bin/` directory
