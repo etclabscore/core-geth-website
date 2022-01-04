@@ -77,7 +77,6 @@ Available networks flags:
   --rinkeby                           Rinkeby network: pre-configured proof-of-authority test network
   --kotti                             Kotti network: cross-client proof-of-authority test network
   --goerli                            Görli network: pre-configured proof-of-authority test network
-  --rinkeby                           Rinkeby network: pre-configured proof-of-authority test network
   --ropsten                           Ropsten network: pre-configured proof-of-work test network
 ```
 
